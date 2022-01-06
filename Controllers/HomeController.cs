@@ -18,6 +18,11 @@ namespace IYarles.Controllers
             return View();
         }
 
+        public IActionResult Services()
+        {
+            return View();
+        }
+
         public IActionResult Resume()
         {
             return View();
