@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IYarles</title>
+
+    @* Bulma CSS *@
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    @* Custom CSS *@
+    <link rel="stylesheet" type="text/css" href="css/iyarles.css" />
+
+    @* Font Awesome *@
+    <script src="https://kit.fontawesome.com/f3c205aeeb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" asp-action="Index">
+                    <i class="far fa-hand-peace"></i>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" asp-action="Index">
+                    <span>IYarles</span>
+                </a>
+                <div id="burger" class="navbar-burger" data-target="myNav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="myNav" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" asp-action="Index">
+                        About
+                    </a>
+                    <a class="navbar-item" asp-action="Resume">
+                        Resume
+                    </a>
+                    <a class="navbar-item" asp-action="Contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        @RenderBody()
+    </main>
+
+    @* JQuery CDN *@
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    @* Burger Menu *@
+    <script src="js/iyarles.js"></script>
+</body>
+
+</html>
