@@ -5,6 +5,7 @@
 
 # Custom ignore
 Secrets.cs
+*:Zone.Identifier
 
 # User-specific files
 *.rsuser
