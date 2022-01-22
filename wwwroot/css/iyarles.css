@@ -4,6 +4,12 @@
     font-family: 'Source Code Pro';
 }
 
+
+ul {
+    list-style: square; /* Bulma sets ul's to have list-style: none */
+    padding-left: 1rem;
+}
+
 #frontpage {
     background-image: url("/images/frontpage.jpg");
     background-size: cover;
@@ -16,5 +22,13 @@
 }
 
 section {
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+section:first-of-type {
+    padding-top: 3.75rem;
+}
+
+.awards > div{
+    padding-bottom: 0.5rem;
 }
