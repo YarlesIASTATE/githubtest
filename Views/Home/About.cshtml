@@ -64,7 +64,7 @@
             <div class="modal-background"></div>
             <div class="modal-content">
               <p class="image is-fluid">
-                <img src="images/climb.jpg" alt="">
+                <img src="~/images/climb.jpg" alt="">
               </p>
             </div>
             <button class="modal-close is-large" aria-label="close"></button>
@@ -80,10 +80,10 @@
     <h1 class="is-size-3 has-text-centered has-text-weight-bold block">
       IYarles Stack
     </h1>
-    <div class="columns block">
-      <div class="column">
+    <div class="columns block is-multiline">
+      <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/dotnet.png" alt=".NET 6">
+          <img class="image" src="~/images/dotnet.png" alt="dotNET">
           <p class="block">
             An open source, cross-platform web development framework maintained by Microsoft. .NET 6 is the backbone of
             my
@@ -91,28 +91,25 @@
           </p>
         </div>
       </div>
-      <div class="column">
+      @* <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/nginx.png" alt=".NET 6">
+          <img class="image" src="~/images/nginx.png" alt="NGINX">
           <p class="block">
             An enterprise-grade web server. This is how users are able to access my websites via an URL.
           </p>
         </div>
-      </div>
-      <div class="column">
+      </div> *@
+      <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/aws.png" alt=".NET 6">
+          <img class="image" src="~/images/aws.png" alt="AWS">
           <p class="block">
             The largest cloud provider. My websites are hosted and deployed on AWS, but other providers are also viable.
           </p>
         </div>
       </div>
-    </div>
-
-    <div class="columns block">
-      <div class="column">
+      <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/bulma.png" alt=".NET 6">
+          <img class="image" src="~/images/bulma.png" alt="Bulma CSS">
           <p class="block">
             A high quality, well maintained, and opensource CSS framework. IYarles is styled with this, along with
             custom
@@ -121,9 +118,9 @@
           </p>
         </div>
       </div>
-      <div class="column">
+      @* <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/mysql.png" alt=".NET 6">
+          <img class="image" src="~/images/postgresql.png" alt="PostgreSQL">
           <p class="block">
             The most popular and powerful open source relational database. IYarles uses this to store communication from
             the
@@ -131,10 +128,10 @@
             Websites I build that require databases will likely use this.
           </p>
         </div>
-      </div>
-      <div class="column">
+      </div> *@
+      <div class="column is-4">
         <div class="box">
-          <img class="image" src="images/github.png" alt=".NET 6">
+          <img class="image" src="~/images/github.png" alt="GitHub">
           <p class="block">
             The undisputably most popular version control system.
             All source code is stored on GitHub, enabling efficient file sharing and collaboration.
@@ -142,5 +139,6 @@
         </div>
       </div>
     </div>
+    <h5 class="has-text-centered">Technologies will be added to this section as they are used by this website</h4>
   </div>
 </section>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
     @* Custom CSS *@
-    <link rel="stylesheet" type="text/css" href="css/iyarles.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/iyarles.css" />
 
     @* Font Awesome *@
     <script src="https://kit.fontawesome.com/f3c205aeeb.js" crossorigin="anonymous"></script>
@@ -34,12 +34,12 @@
             </div>
             <div id="myNav" class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="navbar-item" asp-action="Index">
+                    <a class="navbar-item" asp-action="About">
                         About
                     </a>
-                    <a class="navbar-item" asp-action="Services">
+                    @* <a class="navbar-item" asp-action="Services">
                         Services
-                    </a>
+                    </a> TODO: Find more time in my life to offer these services. *@
                     <a class="navbar-item" asp-action="Resume">
                         Resume
                     </a>
@@ -64,7 +64,7 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     @* Burger Menu *@
-    <script src="js/iyarles.js"></script>
+    <script src="~/js/iyarles.js"></script>
 </body>
 
 </html>
