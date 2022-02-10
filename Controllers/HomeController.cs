@@ -18,17 +18,17 @@ namespace IYarles.Controllers
             return View();
         }
 
-        public IActionResult Services()
-        {
-            return View();
-        }
+        // public IActionResult Services() // TODO: Find time to provide these, lol
+        // {
+        //     return View();
+        // }
 
         public IActionResult Resume()
         {
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contact() // TODO: Make it
         {
             return View();
         }

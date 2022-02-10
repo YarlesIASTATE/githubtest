@@ -1,0 +1,4 @@
+Build and push image to iyarles azure container registry. Webhook provides continuous deployment.
+az acr build --file Dockerfile --registry yarles --image iyarles .
+
+To be continued...
